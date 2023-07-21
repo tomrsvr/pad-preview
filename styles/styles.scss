@@ -5,6 +5,8 @@
 section.hero {
     display: flex;
     justify-content: center;
+    height: 100vh;
+    align-items: center;
     h1 {
         text-align: center;
         font-weight: 300;
@@ -19,7 +21,7 @@ section.hero {
 
 .hero {
     img {
-        max-width: 40rem;
+        max-width: 90vw;
     }
 }
 
