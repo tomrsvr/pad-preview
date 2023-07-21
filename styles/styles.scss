@@ -5,4 +5,43 @@
 section.hero {
     display: flex;
     justify-content: center;
+    h1 {
+        text-align: center;
+        font-weight: 300;
+        font-size: 2rem;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+.hero {
+    img {
+        max-width: 40rem;
+    }
+}
+
+
+img.avatar {
+    border-radius: 50%;
+    box-shadow: 0 5px 27px -8px rgba(0,0,0,.3);
+}
+
+
+.author {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+.name {
+    font-size: .9rem;
+    font-weight: 300;
+    span {
+        font-weight: 400;
+    }
 }
