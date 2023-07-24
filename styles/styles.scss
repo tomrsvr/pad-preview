@@ -1,3 +1,6 @@
+:root {
+    --theme-grad: linear-gradient(64deg, #75c3ff 0%, #ff5c9a 100%);
+}
 * {
     font-family: 'Inter', sans-serif;
 }
@@ -10,9 +13,10 @@ section.hero {
     h1 {
         text-align: center;
         font-weight: 300;
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: 100;
         text-transform: uppercase;
+        letter-spacing: 2px;
     }
     p {
         text-align: center;
@@ -21,7 +25,9 @@ section.hero {
 
 .hero {
     img {
-        max-width: 90vw;
+        // max-width: 90vw;
+        max-width: 30rem;
+        width: 100%;
     }
 }
 
@@ -41,9 +47,18 @@ img.avatar {
 }
 
 .name {
-    font-size: .9rem;
+    font-size: .6rem;
     font-weight: 300;
     span {
         font-weight: 400;
+        font-size: .9rem;
+        display: block;
+        background-image: var(--theme-grad);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+        border-bottom: 1px solid #e6e6e6;
+        padding-bottom: 1px;
     }
 }
