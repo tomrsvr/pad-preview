@@ -66,6 +66,7 @@ img.avatar {
 .choices {
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 div.card {
